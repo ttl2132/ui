@@ -319,6 +319,12 @@ p {
     padding-bottom: 15px;
     width: 140px;
 }
+
+input.title {
+    border-bottom: 1px solid #999999;
+    width: 100%;
+}
+
 input {
     margin-bottom: 10px;
     border: none;
