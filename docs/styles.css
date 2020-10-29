@@ -168,11 +168,8 @@ td {
     padding: 0.5em 1.75em;
     font-size: 1.25em;
 }
-.bookbutton:hover {
-    background-color: #777;
-}
 .bookbutton:hover a {
-    color: white;
+    text-decoration: underline;
 }
 .bookcontent {
     display: flex;
