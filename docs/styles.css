@@ -129,7 +129,7 @@ td {
 .bookbar a {
     text-decoration: none;
 }
-#bookcurrent {
+.bookcurrent {
     background-color: #00069F;
     color: white;
 }
@@ -204,4 +204,51 @@ p {
 }
 .discclick {
     cursor: pointer;
+}
+#tagbox {
+    padding: 20px;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;;
+}
+.tag {
+    display: inline;
+    padding: 5px 10px;
+    height: 20px;
+    max-width: max-content;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #EBEBEB;
+    color: #00069F;
+    margin: 10px 5px;
+}
+.sduser {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.comment {
+    margin: 5px;
+    padding: 10px;
+    border-left: 1px solid #777;
+    background-color: #EBEBEB;
+}
+.lccomment {
+    margin-top: 10px;
+    padding-bottom: 15px;
+    color: black;
+}
+#postbutton {
+    float: left;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+#postbutton a {
+    text-decoration: none;
+    color: #EBEBEB;
+    background-color: #00069F;
+    max-width: max-content;
+    text-align: center;
+    border-radius: 30px;
+    height: 30px;
+    padding: 5px 10px;
 }
