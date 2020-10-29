@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        .toolbar {
+            background-color: black;
+            padding: 20px;
+            display: flex;
+            flex-basis: auto;
+            align-items: center;
+            height: 20px;
+        }
+        #searchbar {
+            margin: 5px;
+        }
+        #home {
+            margin: 5px;
+        }
+        #icons {
+            margin-left: auto;
+            width: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="toolbar">
+            <a href="home.html"><img id="home" src="icons/homeicon.png" alt="Home"></a>
+        <span id="searchbar">
+            <form id="search" action="search.html">
+                <input type="text" id="searchbar">
+                <button>Search</button>
+            </form>
+        </span>
+        <span id="icons">
+            <a href="chat.html"><img id="chat" src="icons/chat.jpg"></a>
+            <a href="usernotif.html"><img id="usernotif" src="icons/usernotif.png"></a>
+            <a href="userprofile.html"><img id="userprofile" src="icons/userprofile.png"></a>
+        </span>
+    </div>
+</body>
