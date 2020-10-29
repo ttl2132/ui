@@ -1,0 +1,62 @@
+body {
+    background-color: #EBEBEB;
+    font-family: 'Raleway', sans-serif;
+    color: #00069F;
+    margin: 0px;
+}
+.toolbar {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.searchbar {
+    margin: 5px;
+}
+.icons {
+    margin-left: auto;
+    width: fit-content;
+}
+.secondarybar {
+    margin: 0px;
+    background-color: white;
+    padding: 20px;
+}
+.title {
+    font-size: 24pt;
+}
+.filter {
+    justify-content: left;
+}
+.filtertypes {
+    text-align: right;
+}
+.block {
+    padding: 15px;
+    display: flex;
+}
+.blockimg {
+    width: 20%;
+    justify-content: center;
+}
+.blocktitle {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 24px;
+    width: 50%;
+}
+.username {
+    padding-bottom: 5px;
+}
+.user {
+    display: flex;
+}
+.lcbar {
+    right: 0%;
+}
+.icon {
+    width: 50px;
+}
+.smallicon {
+    width: 20px;
+}
