@@ -166,7 +166,11 @@ td {
     max-width: 50%;
     margin-left: 25%;
 }
+p {
+    font-size: 14pt;
+}
 .pill {
+    display: flex;
     padding: 10px 15px;
     height: 20px;
     max-width: max-content;
