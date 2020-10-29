@@ -37,6 +37,9 @@ body {
 .explorebook {
     width: 240px;
 }
+.exploretext {
+    font-size: 24pt;
+}
 .scrollmenu {
     overflow: auto;
     white-space: nowrap;
@@ -49,7 +52,7 @@ body {
     color: #00069F;
 }
 .title {
-    font-size: 24pt;
+    font-size: 20pt;
 }
 .filter {
     justify-content: left;
@@ -111,6 +114,7 @@ body {
 }
 table {
     padding-top: 20px;
+    padding-left: 10px;
 }
 td {
     padding: 0px 40px;
@@ -149,6 +153,7 @@ td {
     max-width: 70%;
 }
 #booktitle {
+    margin-top: 10px;
     font-size: 30px;
 }
 .bookinfo {
@@ -163,8 +168,7 @@ td {
     text-align: right;
 }
 #summary {
-    max-width: 50%;
-    margin-left: 25%;
+    max-width: 70%;
 }
 p {
     font-size: 14pt;
@@ -178,7 +182,26 @@ p {
     border-radius: 15px;
     background-color: #00069F;
     color: white;
-    margin: 10px 25%;
+    margin: 10px;
     float: right;
     clear: right;
+}
+.ratingimg {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#stars {
+    height: 50px;
+}
+#graph {
+    width: 60%;
+}
+#ratingtitle {
+    font-size: 50px;
+    text-align: left;
+    width: 35%;
+}
+.discclick {
+    cursor: pointer;
 }

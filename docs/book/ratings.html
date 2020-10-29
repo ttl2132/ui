@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="toolbar">
+        <a href="../index.html"><img class="icon" src="../icons/homeicon.svg" alt="Home"></a>
+        <span class="searchbar">
+            <form class="search" action="../search.html">
+                <input type="text" class="searchbar">
+                <button>Search</button>
+            </form>
+        </span>
+        <span class="icons">
+            <a href="../chat.html"><img class="icon" src="../icons/chat.svg"></a>
+            <a href="../usernotif.html"><img class="icon" src="../icons/usernotif.svg"></a>
+            <a href="../userprofile.html"><img class="icon" src="../icons/user.svg"></a>
+        </span>
+    </div>
+    <div class="bookbar">
+        <span class="bookbutton"><a href="booklanding.html">Info</a></span>
+        <span class="bookbutton"><a href="discussions.html">Discussions</a></span>
+        <span class="bookbutton" id="bookcurrent">Ratings</span>
+    </div>
+    <div class="secondarybar">
+        <div class="filter">
+            <div class="filtertypes">
+                Sort by: Latest | <strong>Most Helpful</strong>
+            </div>
+        </div>
+    </div>
+    <div class="ratingimg"><span id="ratingtitle">Overall Rating: 4.9 </span><img id="stars" src="../Pictures/stars.svg" alt="5 Star Rating"></div>
+    <div class="ratingimg"><img id="graph" class="ratingimg" src="../Pictures/ratings.svg" alt="Rating Distribution"></div>
+    </body>
