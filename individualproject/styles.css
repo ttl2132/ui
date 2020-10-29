@@ -22,6 +22,32 @@ body {
     background-color: white;
     padding: 20px;
 }
+#historybar {
+    margin: 0px;
+    background-color: #FFEDBE;
+    padding: 20px;
+    font-size: 12pt;
+}
+#historytitle {
+    font-size: 18pt;
+}
+.historybook {
+    width: 120px;
+}
+.explorebook {
+    width: 240px;
+}
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+.scrollmenu a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    color: #00069F;
+}
 .title {
     font-size: 24pt;
 }
@@ -37,28 +63,55 @@ body {
 }
 .blockimg {
     width: 20%;
-    justify-content: center;
+}
+.bookimg {
+    max-width: 100%;
 }
 .blocktitle {
     padding-top: 15px;
     padding-left: 15px;
     font-size: 24px;
-    width: 50%;
+    width: 70%;
 }
 .username {
     padding-bottom: 5px;
+    font-size: 20px;
+    color: black;
 }
 .user {
     display: flex;
 }
 .lcbar {
-    width: 30%;
-    text-align: right;
+    width: 10%;
+    display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+    color: black;
 }
 .icon {
-    width: 50px;
+    width: 40px;
+    max-width: 100%;
+}
+.notiftext {
+    font-size: 14pt;
+    color: black;
+    padding: 30px;
+}
+.date {
+    font-size: 20px;
+    color: black;
 }
 .smallicon {
     width: 20px;
+}
+.lcspace {
+    width: 10%;
+}
+table {
+    padding-top: 20px;
+}
+td {
+    padding: 10px 40px;
+    text-align: center;
 }
