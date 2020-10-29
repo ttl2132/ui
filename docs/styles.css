@@ -83,10 +83,10 @@ body {
     display: flex;
 }
 .lcbar {
-    width: 10%;
+    width: 20%;
     display: flex;
     align-items: flex-end;
-    justify-content: flex-end;
+    justify-content: space-evenly;
     padding-bottom: 15px;
     color: black;
 }
@@ -140,10 +140,41 @@ td {
 }
 .bookcontent {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .book {
     margin-top: 30px;
     width: 300px;
+    max-width: 70%;
+}
+#booktitle {
+    font-size: 30px;
+}
+.bookinfo {
+    display: flex;
+    justify-content: center;
+}
+#leftinfo {
+    text-align: left;
+    width: 40%;
+}
+#rightinfo {
+    text-align: right;
+}
+#summary {
     max-width: 50%;
+    margin-left: 25%;
+}
+.pill {
+    padding: 10px 15px;
+    height: 20px;
+    max-width: max-content;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #00069F;
+    color: white;
+    margin: 10px 25%;
+    float: right;
+    clear: right;
 }
