@@ -6,15 +6,40 @@ body {
 }
 .toolbar {
     background-color: black;
-    padding: 20px;
+    padding: 1.5em;
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .searchbar {
     margin: 5px;
+    color: white;
+    width: 100%;
+    border-bottom: 1px solid white;
 }
+form {
+    display: flex;
+    flex-grow: 5;
+}
+.searchbar::-webkit-input-placeholder {
+    color: white;
+    font-size: 1.25em;
+}
+
+.searchbar:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+    font-size: 1.25em;
+}
+   
+.searchbar::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+    font-size: 1.25em;
+}
+
 .icons {
+    display: flex;
     margin-left: auto;
+    flex-grow: 0;
     width: fit-content;
 }
 .secondarybar {
@@ -85,7 +110,7 @@ body {
     width: 100%;
 }
 .username {
-    font-size: 1em;
+    font-size: 0.9em;
     color: black;
 }
 .user {
@@ -140,7 +165,8 @@ td {
     color: white;
 }
 .bookbutton {
-    padding: 10px 20px;
+    padding: 0.5em 1.75em;
+    font-size: 1.25em;
 }
 .bookbutton:hover {
     background-color: #777;
@@ -256,7 +282,7 @@ p {
     text-align: center;
     border-radius: 30px;
     height: 30px;
-    padding: 5px 10px;
+    padding: 5px 1em;
 }
 #previewtagbox {
     position: fixed;
@@ -289,4 +315,10 @@ p {
     padding-left: 20px;
     padding-bottom: 15px;
     width: 140px;
+}
+input {
+    margin-bottom: 10px;
+    border: none;
+    background: transparent;
+    outline: none;
 }
