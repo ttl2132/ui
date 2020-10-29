@@ -1,5 +1,4 @@
 body {
-    background-color: #EBEBEB;
     font-family: 'Raleway', sans-serif;
     color: #00069F;
     margin: 0px;
@@ -25,10 +24,11 @@ body {
 #historybar {
     margin: 0px;
     background-color: #FFEDBE;
-    padding: 20px;
+    padding: 15px;
     font-size: 12pt;
 }
-#historytitle {
+.homesubtitle {
+    padding: 12px;
     font-size: 18pt;
 }
 .historybook {
@@ -58,8 +58,10 @@ body {
     text-align: right;
 }
 .block {
+    background-color: #EBEBEB;
     padding: 15px;
     display: flex;
+    border-bottom: 1px solid #999999;
 }
 .blockimg {
     width: 20%;
@@ -74,7 +76,6 @@ body {
     width: 70%;
 }
 .username {
-    padding-bottom: 5px;
     font-size: 20px;
     color: black;
 }
@@ -112,6 +113,37 @@ table {
     padding-top: 20px;
 }
 td {
-    padding: 10px 40px;
+    padding: 0px 40px;
     text-align: center;
+}
+.bookbar {
+    background-color: white;
+    display: flex;
+    align-items: stretch;
+    border-bottom: 1px solid #999999;
+}
+.bookbar a {
+    text-decoration: none;
+}
+#bookcurrent {
+    background-color: #00069F;
+    color: white;
+}
+.bookbutton {
+    padding: 10px 20px;
+}
+.bookbutton:hover {
+    background-color: #777;
+}
+.bookbutton:hover a {
+    color: white;
+}
+.bookcontent {
+    display: flex;
+    justify-content: center;
+}
+.book {
+    margin-top: 30px;
+    width: 300px;
+    max-width: 50%;
 }
