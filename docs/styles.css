@@ -272,6 +272,10 @@ p {
     padding-bottom: 15px;
     color: black;
 }
+#postbutton {
+    bottom: 80px;
+}
+
 .postbutton {
     position: fixed;
     right: 20px;
@@ -330,4 +334,8 @@ input {
     border: none;
     background: transparent;
     outline: none;
+}
+#cancelbutton a {
+    background-color: #EBEBEB;
+    color: #00069F;
 }
